@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Pokemon</title>
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+    </style>
+</head>
+<body>
+    <div class="containers flex items-center justify-between">
+        <div class="w-[69%] p-10 h-[100vh] overflow-y-auto">
+            <input class="shadow w-full py-[20px] pl-[40px] text-[22px] border-[2px] border-slate-400 rounded-[30px] outline-none" type="text" placeholder="Enter random name or number">
+            <ul class="pokemon-list flex flex-wrap justify-between gap-[30px] mt-[20px]"></ul>
+        </div>
+        <div class="w-[29%]"></div>
+    </div>
+
+
+    <script src="./js/pakemon.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+    </script>
+</body>
+</html>
