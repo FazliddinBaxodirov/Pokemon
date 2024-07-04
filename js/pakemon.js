@@ -15,6 +15,7 @@ var pokemons = [
       spawn_time: "20:00",
       multipliers: [1.58],
       weaknesses: ["Fire", "Ice", "Flying", "Psychic"],
+      islike: false,
       next_evolution: [
         {
           num: "002",
@@ -42,6 +43,7 @@ var pokemons = [
       spawn_time: "07:00",
       multipliers: [1.2, 1.6],
       weaknesses: ["Fire", "Ice", "Flying", "Psychic"],
+      islike: false,
       prev_evolution: [
         {
           num: "001",
@@ -70,6 +72,7 @@ var pokemons = [
       spawn_time: "11:30",
       multipliers: null,
       weaknesses: ["Fire", "Ice", "Flying", "Psychic"],
+      islike: false,
       prev_evolution: [
         {
           num: "001",
@@ -97,6 +100,7 @@ var pokemons = [
       spawn_time: "08:45",
       multipliers: [1.65],
       weaknesses: ["Water", "Ground", "Rock"],
+      islike: false,
       next_evolution: [
         {
           num: "005",
@@ -124,6 +128,7 @@ var pokemons = [
       spawn_time: "19:00",
       multipliers: [1.79],
       weaknesses: ["Water", "Ground", "Rock"],
+      islike: false,
       prev_evolution: [
         {
           num: "004",
@@ -152,6 +157,7 @@ var pokemons = [
       spawn_time: "13:34",
       multipliers: null,
       weaknesses: ["Water", "Electric", "Rock"],
+      islike: false,
       prev_evolution: [
         {
           num: "004",
@@ -179,6 +185,7 @@ var pokemons = [
       spawn_time: "04:25",
       multipliers: [2.1],
       weaknesses: ["Electric", "Grass"],
+      islike: false,
       next_evolution: [
         {
           num: "008",
@@ -206,6 +213,7 @@ var pokemons = [
       spawn_time: "07:02",
       multipliers: [1.4],
       weaknesses: ["Electric", "Grass"],
+      islike: false,
       prev_evolution: [
         {
           num: "007",
@@ -234,6 +242,7 @@ var pokemons = [
       spawn_time: "00:06",
       multipliers: null,
       weaknesses: ["Electric", "Grass"],
+      islike: false,
       prev_evolution: [
         {
           num: "007",
@@ -261,6 +270,7 @@ var pokemons = [
       spawn_time: "16:35",
       multipliers: [1.05],
       weaknesses: ["Fire", "Flying", "Rock"],
+      islike: false,
       next_evolution: [
         {
           num: "011",
@@ -288,6 +298,7 @@ var pokemons = [
       spawn_time: "02:11",
       multipliers: [3.55, 3.79],
       weaknesses: ["Fire", "Flying", "Rock"],
+      islike: false,
       prev_evolution: [
         {
           num: "010",
@@ -316,6 +327,7 @@ var pokemons = [
       spawn_time: "05:23",
       multipliers: null,
       weaknesses: ["Fire", "Electric", "Ice", "Flying", "Rock"],
+      islike: false,
       prev_evolution: [
         {
           num: "010",
@@ -343,6 +355,7 @@ var pokemons = [
       spawn_time: "02:21",
       multipliers: [1.01, 1.09],
       weaknesses: ["Fire", "Flying", "Psychic", "Rock"],
+      islike: false,
       next_evolution: [
         {
           num: "014",
@@ -370,6 +383,7 @@ var pokemons = [
       spawn_time: "02:30",
       multipliers: [3.01, 3.41],
       weaknesses: ["Fire", "Flying", "Psychic", "Rock"],
+      islike: false,
       prev_evolution: [
         {
           num: "013",
@@ -398,6 +412,7 @@ var pokemons = [
       spawn_time: "04:50",
       multipliers: null,
       weaknesses: ["Fire", "Flying", "Psychic", "Rock"],
+      islike: false,
       prev_evolution: [
         {
           num: "013",
@@ -425,6 +440,7 @@ var pokemons = [
       spawn_time: "01:34",
       multipliers: [1.71, 1.92],
       weaknesses: ["Electric", "Rock"],
+      islike: false,
       next_evolution: [
         {
           num: "017",
@@ -452,6 +468,7 @@ var pokemons = [
       spawn_time: "01:30",
       multipliers: [1.79],
       weaknesses: ["Electric", "Rock"],
+      islike: false,
       prev_evolution: [
         {
           num: "016",
@@ -480,6 +497,7 @@ var pokemons = [
       spawn_time: "01:50",
       multipliers: null,
       weaknesses: ["Electric", "Rock"],
+      islike: false,
       prev_evolution: [
         {
           num: "016",
@@ -507,6 +525,7 @@ var pokemons = [
       spawn_time: "01:55",
       multipliers: [2.55, 2.73],
       weaknesses: ["Fighting"],
+      islike: false,
       next_evolution: [
         {
           num: "020",
@@ -529,6 +548,7 @@ var pokemons = [
       spawn_time: "01:56",
       multipliers: null,
       weaknesses: ["Fighting"],
+      islike: false,
       prev_evolution: [
         {
           num: "019",
@@ -552,6 +572,7 @@ var pokemons = [
       spawn_time: "12:25",
       multipliers: [2.66, 2.68],
       weaknesses: ["Electric", "Rock"],
+      islike: false,
       next_evolution: [
         {
           num: "022",
@@ -574,6 +595,7 @@ var pokemons = [
       spawn_time: "01:11",
       multipliers: null,
       weaknesses: ["Electric", "Rock"],
+      islike: false,
       prev_evolution: [
         {
           num: "021",
@@ -597,6 +619,7 @@ var pokemons = [
       spawn_time: "12:20",
       multipliers: [2.21, 2.27],
       weaknesses: ["Ground", "Psychic"],
+      islike: false,
       next_evolution: [
         {
           num: "024",
@@ -619,6 +642,7 @@ var pokemons = [
       spawn_time: "01:50",
       multipliers: null,
       weaknesses: ["Ground", "Psychic"],
+      islike: false,
       prev_evolution: [
         {
           num: "023",
@@ -642,6 +666,7 @@ var pokemons = [
       spawn_time: "04:00",
       multipliers: [2.34],
       weaknesses: ["Ground"],
+      islike: false,
       next_evolution: [
         {
           num: "026",
@@ -664,6 +689,7 @@ var pokemons = [
       spawn_time: "23:58",
       multipliers: null,
       weaknesses: ["Ground"],
+      islike: false,
       prev_evolution: [
         {
           num: "025",
@@ -687,6 +713,7 @@ var pokemons = [
       spawn_time: "01:58",
       multipliers: [2.45],
       weaknesses: ["Water", "Grass", "Ice"],
+      islike: false,
       next_evolution: [
         {
           num: "028",
@@ -709,6 +736,7 @@ var pokemons = [
       spawn_time: "12:34",
       multipliers: null,
       weaknesses: ["Water", "Grass", "Ice"],
+      islike: false,
       prev_evolution: [
         {
           num: "027",
@@ -732,6 +760,7 @@ var pokemons = [
       spawn_time: "01:51",
       multipliers: [1.63, 2.48],
       weaknesses: ["Ground", "Psychic"],
+      islike: false,
       next_evolution: [
         {
           num: "030",
@@ -759,6 +788,7 @@ var pokemons = [
       spawn_time: "07:22",
       multipliers: [1.83, 2.48],
       weaknesses: ["Ground", "Psychic"],
+      islike: false,
       prev_evolution: [
         {
           num: "029",
@@ -787,6 +817,7 @@ var pokemons = [
       spawn_time: "12:35",
       multipliers: null,
       weaknesses: ["Water", "Ice", "Ground", "Psychic"],
+      islike: false,
       prev_evolution: [
         {
           num: "029",
@@ -814,6 +845,7 @@ var pokemons = [
       spawn_time: "01:12",
       multipliers: [1.64, 1.7],
       weaknesses: ["Ground", "Psychic"],
+      islike: false,
       next_evolution: [
         {
           num: "033",
@@ -841,6 +873,7 @@ var pokemons = [
       spawn_time: "09:02",
       multipliers: [1.83],
       weaknesses: ["Ground", "Psychic"],
+      islike: false,
       prev_evolution: [
         {
           num: "032",
@@ -869,6 +902,7 @@ var pokemons = [
       spawn_time: "12:16",
       multipliers: null,
       weaknesses: ["Water", "Ice", "Ground", "Psychic"],
+      islike: false,
       prev_evolution: [
         {
           num: "032",
@@ -896,6 +930,7 @@ var pokemons = [
       spawn_time: "03:30",
       multipliers: [2.03, 2.14],
       weaknesses: ["Fighting"],
+      islike: false,
       next_evolution: [
         {
           num: "036",
@@ -918,6 +953,7 @@ var pokemons = [
       spawn_time: "03:29",
       multipliers: null,
       weaknesses: ["Fighting"],
+      islike: false,
       prev_evolution: [
         {
           num: "035",
@@ -941,6 +977,7 @@ var pokemons = [
       spawn_time: "13:43",
       multipliers: [2.74, 2.81],
       weaknesses: ["Water", "Ground", "Rock"],
+      islike: false,
       next_evolution: [
         {
           num: "038",
@@ -963,6 +1000,7 @@ var pokemons = [
       spawn_time: "01:32",
       multipliers: null,
       weaknesses: ["Water", "Ground", "Rock"],
+      islike: false,
       prev_evolution: [
         {
           num: "037",
@@ -986,6 +1024,7 @@ var pokemons = [
       spawn_time: "08:46",
       multipliers: [1.85],
       weaknesses: ["Fighting"],
+      islike: false,
       next_evolution: [
         {
           num: "040",
@@ -1008,6 +1047,7 @@ var pokemons = [
       spawn_time: "12:28",
       multipliers: null,
       weaknesses: ["Fighting"],
+      islike: false,
       prev_evolution: [
         {
           num: "039",
@@ -1031,6 +1071,7 @@ var pokemons = [
       spawn_time: "12:28",
       multipliers: [2.6, 3.67],
       weaknesses: ["Electric", "Ice", "Psychic", "Rock"],
+      islike: false,
       next_evolution: [
         {
           num: "042",
@@ -1053,6 +1094,7 @@ var pokemons = [
       spawn_time: "02:15",
       multipliers: null,
       weaknesses: ["Electric", "Ice", "Psychic", "Rock"],
+      islike: false,
       prev_evolution: [
         {
           num: "041",
@@ -1076,6 +1118,7 @@ var pokemons = [
       spawn_time: "03:58",
       multipliers: [1.5],
       weaknesses: ["Fire", "Ice", "Flying", "Psychic"],
+      islike: false,
       next_evolution: [
         {
           num: "044",
@@ -1103,6 +1146,7 @@ var pokemons = [
       spawn_time: "11:33",
       multipliers: [1.49],
       weaknesses: ["Fire", "Ice", "Flying", "Psychic"],
+      islike: false,
       prev_evolution: [
         {
           num: "043",
@@ -1131,6 +1175,7 @@ var pokemons = [
       spawn_time: "23:58",
       multipliers: null,
       weaknesses: ["Fire", "Ice", "Flying", "Psychic"],
+      islike: false,
       prev_evolution: [
         {
           num: "043",
@@ -1158,6 +1203,7 @@ var pokemons = [
       spawn_time: "01:42",
       multipliers: [2.02],
       weaknesses: ["Fire", "Ice", "Poison", "Flying", "Bug", "Rock"],
+      islike: false,
       next_evolution: [
         {
           num: "047",
@@ -1180,6 +1226,7 @@ var pokemons = [
       spawn_time: "01:22",
       multipliers: null,
       weaknesses: ["Fire", "Ice", "Poison", "Flying", "Bug", "Rock"],
+      islike: false,
       prev_evolution: [
         {
           num: "046",
@@ -1203,6 +1250,7 @@ var pokemons = [
       spawn_time: "02:31",
       multipliers: [1.86, 1.9],
       weaknesses: ["Fire", "Flying", "Psychic", "Rock"],
+      islike: false,
       next_evolution: [
         {
           num: "049",
@@ -1225,6 +1273,7 @@ var pokemons = [
       spawn_time: "23:40",
       multipliers: null,
       weaknesses: ["Fire", "Flying", "Psychic", "Rock"],
+      islike: false,
       prev_evolution: [
         {
           num: "048",
@@ -1248,6 +1297,7 @@ var pokemons = [
       spawn_time: "02:22",
       multipliers: [2.69],
       weaknesses: ["Water", "Grass", "Ice"],
+      islike: false,
       next_evolution: [
         {
           num: "051",
@@ -1270,6 +1320,7 @@ var pokemons = [
       spawn_time: "12:37",
       multipliers: null,
       weaknesses: ["Water", "Grass", "Ice"],
+      islike: false,
       prev_evolution: [
         {
           num: "050",
@@ -1293,6 +1344,7 @@ var pokemons = [
       spawn_time: "02:54",
       multipliers: [1.98],
       weaknesses: ["Fighting"],
+      islike: false,
       next_evolution: [
         {
           num: "053",
@@ -1315,6 +1367,7 @@ var pokemons = [
       spawn_time: "02:44",
       multipliers: null,
       weaknesses: ["Fighting"],
+      islike: false,
       prev_evolution: [
         {
           num: "052",
@@ -1338,6 +1391,7 @@ var pokemons = [
       spawn_time: "03:41",
       multipliers: [2.27],
       weaknesses: ["Electric", "Grass"],
+      islike: false,
       next_evolution: [
         {
           num: "055",
@@ -1360,6 +1414,7 @@ var pokemons = [
       spawn_time: "23:06",
       multipliers: null,
       weaknesses: ["Electric", "Grass"],
+      islike: false,
       prev_evolution: [
         {
           num: "054",
@@ -1383,6 +1438,7 @@ var pokemons = [
       spawn_time: "12:52",
       multipliers: [2.17, 2.28],
       weaknesses: ["Flying", "Psychic", "Fairy"],
+      islike: false,
       next_evolution: [
         {
           num: "057",
@@ -1405,6 +1461,7 @@ var pokemons = [
       spawn_time: "12:33",
       multipliers: null,
       weaknesses: ["Flying", "Psychic", "Fairy"],
+      islike: false,
       prev_evolution: [
         {
           num: "056",
@@ -1428,6 +1485,7 @@ var pokemons = [
       spawn_time: "03:57",
       multipliers: [2.31, 2.36],
       weaknesses: ["Water", "Ground", "Rock"],
+      islike: false,
       next_evolution: [
         {
           num: "059",
@@ -1450,6 +1508,7 @@ var pokemons = [
       spawn_time: "03:11",
       multipliers: null,
       weaknesses: ["Water", "Ground", "Rock"],
+      islike: false,
       prev_evolution: [
         {
           num: "058",
@@ -1473,6 +1532,7 @@ var pokemons = [
       spawn_time: "03:40",
       multipliers: [1.72, 1.73],
       weaknesses: ["Electric", "Grass"],
+      islike: false,
       next_evolution: [
         {
           num: "061",
@@ -1500,6 +1560,7 @@ var pokemons = [
       spawn_time: "09:14",
       multipliers: [1.95],
       weaknesses: ["Electric", "Grass"],
+      islike: false,
       prev_evolution: [
         {
           num: "060",
@@ -1528,6 +1589,7 @@ var pokemons = [
       spawn_time: "01:32",
       multipliers: null,
       weaknesses: ["Electric", "Grass", "Flying", "Psychic", "Fairy"],
+      islike: false,
       prev_evolution: [
         {
           num: "060",
@@ -1555,6 +1617,7 @@ var pokemons = [
       spawn_time: "04:30",
       multipliers: [1.36, 1.95],
       weaknesses: ["Bug", "Ghost", "Dark"],
+      islike: false,
       next_evolution: [
         {
           num: "064",
@@ -1582,6 +1645,7 @@ var pokemons = [
       spawn_time: "11:25",
       multipliers: [1.4],
       weaknesses: ["Bug", "Ghost", "Dark"],
+      islike: false,
       prev_evolution: [
         {
           num: "063",
@@ -1610,6 +1674,7 @@ var pokemons = [
       spawn_time: "12:33",
       multipliers: null,
       weaknesses: ["Bug", "Ghost", "Dark"],
+      islike: false,
       prev_evolution: [
         {
           num: "063",
@@ -1637,6 +1702,7 @@ var pokemons = [
       spawn_time: "01:55",
       multipliers: [1.64, 1.65],
       weaknesses: ["Flying", "Psychic", "Fairy"],
+      islike: false,
       next_evolution: [
         {
           num: "067",
@@ -1664,6 +1730,7 @@ var pokemons = [
       spawn_time: "10:32",
       multipliers: [1.7],
       weaknesses: ["Flying", "Psychic", "Fairy"],
+      islike: false,
       prev_evolution: [
         {
           num: "066",
@@ -1692,6 +1759,7 @@ var pokemons = [
       spawn_time: "02:55",
       multipliers: null,
       weaknesses: ["Flying", "Psychic", "Fairy"],
+      islike: false,
       prev_evolution: [
         {
           num: "066",
@@ -1719,6 +1787,7 @@ var pokemons = [
       spawn_time: "04:10",
       multipliers: [1.57],
       weaknesses: ["Fire", "Ice", "Flying", "Psychic"],
+      islike: false,
       next_evolution: [
         {
           num: "070",
@@ -1746,6 +1815,7 @@ var pokemons = [
       spawn_time: "09:45",
       multipliers: [1.59],
       weaknesses: ["Fire", "Ice", "Flying", "Psychic"],
+      islike: false,
       prev_evolution: [
         {
           num: "069",
@@ -1774,6 +1844,7 @@ var pokemons = [
       spawn_time: "12:19",
       multipliers: null,
       weaknesses: ["Fire", "Ice", "Flying", "Psychic"],
+      islike: false,
       prev_evolution: [
         {
           num: "069",
@@ -1801,6 +1872,7 @@ var pokemons = [
       spawn_time: "03:20",
       multipliers: [2.52],
       weaknesses: ["Electric", "Ground", "Psychic"],
+      islike: false,
       next_evolution: [
         {
           num: "073",
@@ -1823,6 +1895,7 @@ var pokemons = [
       spawn_time: "23:36",
       multipliers: null,
       weaknesses: ["Electric", "Ground", "Psychic"],
+      islike: false,
       prev_evolution: [
         {
           num: "072",
@@ -1846,6 +1919,7 @@ var pokemons = [
       spawn_time: "12:40",
       multipliers: [1.75, 1.76],
       weaknesses: ["Water", "Grass", "Ice", "Fighting", "Ground", "Steel"],
+      islike: false,
       next_evolution: [
         {
           num: "075",
@@ -1873,6 +1947,7 @@ var pokemons = [
       spawn_time: "04:53",
       multipliers: [1.64, 1.72],
       weaknesses: ["Water", "Grass", "Ice", "Fighting", "Ground", "Steel"],
+      islike: false,
       prev_evolution: [
         {
           num: "074",
@@ -1901,6 +1976,7 @@ var pokemons = [
       spawn_time: "12:16",
       multipliers: null,
       weaknesses: ["Water", "Grass", "Ice", "Fighting", "Ground", "Steel"],
+      islike: false,
       prev_evolution: [
         {
           num: "074",
@@ -1928,6 +2004,7 @@ var pokemons = [
       spawn_time: "02:50",
       multipliers: [1.48, 1.5],
       weaknesses: ["Water", "Ground", "Rock"],
+      islike: false,
       next_evolution: [
         {
           num: "078",
@@ -1950,6 +2027,7 @@ var pokemons = [
       spawn_time: "04:00",
       multipliers: null,
       weaknesses: ["Water", "Ground", "Rock"],
+      islike: false,
       prev_evolution: [
         {
           num: "077",
@@ -1973,6 +2051,7 @@ var pokemons = [
       spawn_time: "07:12",
       multipliers: [2.21],
       weaknesses: ["Electric", "Grass", "Bug", "Ghost", "Dark"],
+      islike: false,
       next_evolution: [
         {
           num: "080",
@@ -1995,6 +2074,7 @@ var pokemons = [
       spawn_time: "02:56",
       multipliers: null,
       weaknesses: ["Electric", "Grass", "Bug", "Ghost", "Dark"],
+      islike: false,
       prev_evolution: [
         {
           num: "079",
@@ -2018,6 +2098,7 @@ var pokemons = [
       spawn_time: "04:04",
       multipliers: [2.16, 2.17],
       weaknesses: ["Fire", "Water", "Ground"],
+      islike: false,
       next_evolution: [
         {
           num: "082",
@@ -2040,6 +2121,7 @@ var pokemons = [
       spawn_time: "15:25",
       multipliers: null,
       weaknesses: ["Fire", "Water", "Ground"],
+      islike: false,
       prev_evolution: [
         {
           num: "081",
@@ -2062,6 +2144,7 @@ var pokemons = [
       spawn_time: "01:09",
       multipliers: null,
       weaknesses: ["Electric", "Rock"],
+      islike: false,
     },
     {
       id: 84,
@@ -2079,6 +2162,7 @@ var pokemons = [
       spawn_time: "05:10",
       multipliers: [2.19, 2.24],
       weaknesses: ["Electric", "Rock"],
+      islike: false,
       next_evolution: [
         {
           num: "085",
@@ -2101,6 +2185,7 @@ var pokemons = [
       spawn_time: "02:12",
       multipliers: null,
       weaknesses: ["Electric", "Rock"],
+      islike: false,
       prev_evolution: [
         {
           num: "084",
@@ -2124,6 +2209,7 @@ var pokemons = [
       spawn_time: "06:46",
       multipliers: [1.04, 1.96],
       weaknesses: ["Electric", "Grass"],
+      islike: false,
       next_evolution: [
         {
           num: "087",
@@ -2146,6 +2232,7 @@ var pokemons = [
       spawn_time: "06:04",
       multipliers: null,
       weaknesses: ["Electric", "Grass", "Fighting", "Rock"],
+      islike: false,
       prev_evolution: [
         {
           num: "086",
@@ -2169,6 +2256,7 @@ var pokemons = [
       spawn_time: "15:11",
       multipliers: [2.44],
       weaknesses: ["Ground", "Psychic"],
+      islike: false,
       next_evolution: [
         {
           num: "089",
@@ -2191,6 +2279,7 @@ var pokemons = [
       spawn_time: "01:28",
       multipliers: null,
       weaknesses: ["Ground", "Psychic"],
+      islike: false,
       prev_evolution: [
         {
           num: "088",
@@ -2214,6 +2303,7 @@ var pokemons = [
       spawn_time: "07:39",
       multipliers: [2.65],
       weaknesses: ["Electric", "Grass"],
+      islike: false,
       next_evolution: [
         {
           num: "091",
@@ -2236,6 +2326,7 @@ var pokemons = [
       spawn_time: "02:33",
       multipliers: null,
       weaknesses: ["Electric", "Grass", "Fighting", "Rock"],
+      islike: false,
       prev_evolution: [
         {
           num: "090",
@@ -2259,6 +2350,7 @@ var pokemons = [
       spawn_time: "04:21",
       multipliers: [1.78],
       weaknesses: ["Ground", "Psychic", "Ghost", "Dark"],
+      islike: false,
       next_evolution: [
         {
           num: "093",
@@ -2286,6 +2378,7 @@ var pokemons = [
       spawn_time: "00:10",
       multipliers: [1.56, 1.8],
       weaknesses: ["Ground", "Psychic", "Ghost", "Dark"],
+      islike: false,
       prev_evolution: [
         {
           num: "092",
@@ -2314,6 +2407,7 @@ var pokemons = [
       spawn_time: "03:55",
       multipliers: null,
       weaknesses: ["Ground", "Psychic", "Ghost", "Dark"],
+      islike: false,
       prev_evolution: [
         {
           num: "092",
@@ -2340,6 +2434,7 @@ var pokemons = [
       spawn_time: "01:18",
       multipliers: null,
       weaknesses: ["Water", "Grass", "Ice", "Fighting", "Ground", "Steel"],
+      islike: false,
     },
     {
       id: 96,
@@ -2357,6 +2452,7 @@ var pokemons = [
       spawn_time: "01:51",
       multipliers: [2.08, 2.09],
       weaknesses: ["Bug", "Ghost", "Dark"],
+      islike: false,
       next_evolution: [
         {
           num: "097",
@@ -2379,6 +2475,7 @@ var pokemons = [
       spawn_time: "02:17",
       multipliers: null,
       weaknesses: ["Bug", "Ghost", "Dark"],
+      islike: false,
       prev_evolution: [
         {
           num: "096",
@@ -2402,6 +2499,7 @@ var pokemons = [
       spawn_time: "03:33",
       multipliers: [2.36, 2.4],
       weaknesses: ["Electric", "Grass"],
+      islike: false,
       next_evolution: [
         {
           num: "099",
@@ -2424,6 +2522,7 @@ var pokemons = [
       spawn_time: "03:44",
       multipliers: null,
       weaknesses: ["Electric", "Grass"],
+      islike: false,
       prev_evolution: [
         {
           num: "098",
@@ -2447,6 +2546,7 @@ var pokemons = [
       spawn_time: "04:36",
       multipliers: [2.01, 2.02],
       weaknesses: ["Ground"],
+      islike: false,
       next_evolution: [
         {
           num: "101",
@@ -2469,6 +2569,7 @@ var pokemons = [
       spawn_time: "04:10",
       multipliers: null,
       weaknesses: ["Ground"],
+      islike: false,
       prev_evolution: [
         {
           num: "100",
@@ -2492,6 +2593,7 @@ var pokemons = [
       spawn_time: "09:09",
       multipliers: [2.7, 3.18],
       weaknesses: ["Fire", "Ice", "Poison", "Flying", "Bug", "Ghost", "Dark"],
+      islike: false,
       next_evolution: [
         {
           num: "103",
@@ -2514,6 +2616,7 @@ var pokemons = [
       spawn_time: "12:34",
       multipliers: null,
       weaknesses: ["Fire", "Ice", "Poison", "Flying", "Bug", "Ghost", "Dark"],
+      islike: false,
       prev_evolution: [
         {
           num: "102",
@@ -2537,6 +2640,7 @@ var pokemons = [
       spawn_time: "01:51",
       multipliers: [1.67],
       weaknesses: ["Water", "Grass", "Ice"],
+      islike: false,
       next_evolution: [
         {
           num: "105",
@@ -2559,6 +2663,7 @@ var pokemons = [
       spawn_time: "03:59",
       multipliers: null,
       weaknesses: ["Water", "Grass", "Ice"],
+      islike: false,
       prev_evolution: [
         {
           num: "104",
@@ -2581,6 +2686,7 @@ var pokemons = [
       spawn_time: "03:59",
       multipliers: null,
       weaknesses: ["Flying", "Psychic", "Fairy"],
+      islike: false,
     },
     {
       id: 107,
@@ -2597,6 +2703,7 @@ var pokemons = [
       spawn_time: "05:58",
       multipliers: null,
       weaknesses: ["Flying", "Psychic", "Fairy"],
+      islike: false,
     },
     {
       id: 108,
@@ -2613,6 +2720,7 @@ var pokemons = [
       spawn_time: "02:46",
       multipliers: null,
       weaknesses: ["Fighting"],
+      islike: false,
     },
     {
       id: 109,
@@ -2630,6 +2738,7 @@ var pokemons = [
       spawn_time: "08:16",
       multipliers: [1.11],
       weaknesses: ["Ground", "Psychic"],
+      islike: false,
       next_evolution: [
         {
           num: "110",
@@ -2652,6 +2761,7 @@ var pokemons = [
       spawn_time: "12:17",
       multipliers: null,
       weaknesses: ["Ground", "Psychic"],
+      islike: false,
       prev_evolution: [
         {
           num: "109",
@@ -2675,6 +2785,7 @@ var pokemons = [
       spawn_time: "03:21",
       multipliers: [1.91],
       weaknesses: ["Water", "Grass", "Ice", "Fighting", "Ground", "Steel"],
+      islike: false,
       next_evolution: [
         {
           num: "112",
@@ -2697,6 +2808,7 @@ var pokemons = [
       spawn_time: "05:50",
       multipliers: null,
       weaknesses: ["Water", "Grass", "Ice", "Fighting", "Ground", "Steel"],
+      islike: false,
       prev_evolution: [
         {
           num: "111",
@@ -2719,6 +2831,7 @@ var pokemons = [
       spawn_time: "04:46",
       multipliers: null,
       weaknesses: ["Fighting"],
+      islike: false,
     },
     {
       id: 114,
@@ -2735,6 +2848,7 @@ var pokemons = [
       spawn_time: "23:13",
       multipliers: null,
       weaknesses: ["Fire", "Ice", "Poison", "Flying", "Bug"],
+      islike: false,
     },
     {
       id: 115,
@@ -2751,6 +2865,7 @@ var pokemons = [
       spawn_time: "02:40",
       multipliers: null,
       weaknesses: ["Fighting"],
+      islike: false,
     },
     {
       id: 116,
@@ -2768,6 +2883,7 @@ var pokemons = [
       spawn_time: "02:53",
       multipliers: [2.23],
       weaknesses: ["Electric", "Grass"],
+      islike: false,
       next_evolution: [
         {
           num: "117",
@@ -2790,6 +2906,7 @@ var pokemons = [
       spawn_time: "03:18",
       multipliers: null,
       weaknesses: ["Electric", "Grass"],
+      islike: false,
       prev_evolution: [
         {
           num: "116",
@@ -2813,6 +2930,7 @@ var pokemons = [
       spawn_time: "03:14",
       multipliers: [2.15, 2.2],
       weaknesses: ["Electric", "Grass"],
+      islike: false,
       next_evolution: [
         {
           num: "119",
@@ -2835,6 +2953,7 @@ var pokemons = [
       spawn_time: "05:21",
       multipliers: null,
       weaknesses: ["Electric", "Grass"],
+      islike: false,
       prev_evolution: [
         {
           num: "118",
@@ -2858,6 +2977,7 @@ var pokemons = [
       spawn_time: "22:59",
       multipliers: [2.38, 2.41],
       weaknesses: ["Electric", "Grass"],
+      islike: false,
       next_evolution: [
         {
           num: "121",
@@ -2880,6 +3000,7 @@ var pokemons = [
       spawn_time: "06:57",
       multipliers: null,
       weaknesses: ["Electric", "Grass", "Bug", "Ghost", "Dark"],
+      islike: false,
       prev_evolution: [
         {
           num: "120",
@@ -2902,6 +3023,7 @@ var pokemons = [
       spawn_time: "01:51",
       multipliers: null,
       weaknesses: ["Bug", "Ghost", "Dark"],
+      islike: false,
     },
     {
       id: 123,
@@ -2918,6 +3040,7 @@ var pokemons = [
       spawn_time: "05:43",
       multipliers: null,
       weaknesses: ["Fire", "Electric", "Ice", "Flying", "Rock"],
+      islike: false,
     },
     {
       id: 124,
@@ -2934,6 +3057,7 @@ var pokemons = [
       spawn_time: "05:41",
       multipliers: null,
       weaknesses: ["Fire", "Bug", "Rock", "Ghost", "Dark", "Steel"],
+      islike: false,
     },
     {
       id: 125,
@@ -2950,6 +3074,7 @@ var pokemons = [
       spawn_time: "04:28",
       multipliers: null,
       weaknesses: ["Ground"],
+      islike: false,
     },
     {
       id: 126,
@@ -2966,6 +3091,7 @@ var pokemons = [
       spawn_time: "20:36",
       multipliers: null,
       weaknesses: ["Water", "Ground", "Rock"],
+      islike: false,
     },
     {
       id: 127,
@@ -2982,6 +3108,7 @@ var pokemons = [
       spawn_time: "03:25",
       multipliers: null,
       weaknesses: ["Fire", "Flying", "Rock"],
+      islike: false,
     },
     {
       id: 128,
@@ -2998,6 +3125,7 @@ var pokemons = [
       spawn_time: "00:37",
       multipliers: null,
       weaknesses: ["Fighting"],
+      islike: false,
     },
     {
       id: 129,
@@ -3015,6 +3143,7 @@ var pokemons = [
       spawn_time: "14:26",
       multipliers: [10.1, 11.8],
       weaknesses: ["Electric", "Grass"],
+      islike: false,
       next_evolution: [
         {
           num: "130",
@@ -3037,6 +3166,7 @@ var pokemons = [
       spawn_time: "02:15",
       multipliers: null,
       weaknesses: ["Electric", "Rock"],
+      islike: false,
       prev_evolution: [
         {
           num: "129",
@@ -3059,6 +3189,7 @@ var pokemons = [
       spawn_time: "08:59",
       multipliers: null,
       weaknesses: ["Electric", "Grass", "Fighting", "Rock"],
+      islike: false,
     },
     {
       id: 132,
@@ -3075,6 +3206,7 @@ var pokemons = [
       spawn_time: "N/A",
       multipliers: null,
       weaknesses: ["Fighting"],
+      islike: false,
     },
     {
       id: 133,
@@ -3092,6 +3224,7 @@ var pokemons = [
       spawn_time: "05:32",
       multipliers: [2.02, 2.64],
       weaknesses: ["Fighting"],
+      islike: false,
       next_evolution: [
         {
           num: "134",
@@ -3122,6 +3255,7 @@ var pokemons = [
       spawn_time: "10:54",
       multipliers: null,
       weaknesses: ["Electric", "Grass"],
+      islike: false,
       prev_evolution: [
         {
           num: "133",
@@ -3144,6 +3278,7 @@ var pokemons = [
       spawn_time: "02:30",
       multipliers: null,
       weaknesses: ["Ground"],
+      islike: false,
       prev_evolution: [
         {
           num: "133",
@@ -3166,6 +3301,7 @@ var pokemons = [
       spawn_time: "07:02",
       multipliers: null,
       weaknesses: ["Water", "Ground", "Rock"],
+      islike: false,
       prev_evolution: [
         {
           num: "133",
@@ -3188,6 +3324,7 @@ var pokemons = [
       spawn_time: "02:49",
       multipliers: null,
       weaknesses: ["Fighting"],
+      islike: false,
     },
     {
       id: 138,
@@ -3205,6 +3342,7 @@ var pokemons = [
       spawn_time: "10:23",
       multipliers: [2.12],
       weaknesses: ["Electric", "Grass", "Fighting", "Ground"],
+      islike: false,
       next_evolution: [
         {
           num: "139",
@@ -3227,6 +3365,7 @@ var pokemons = [
       spawn_time: "05:04",
       multipliers: null,
       weaknesses: ["Electric", "Grass", "Fighting", "Ground"],
+      islike: false,
       prev_evolution: [
         {
           num: "138",
@@ -3250,6 +3389,7 @@ var pokemons = [
       spawn_time: "00:05",
       multipliers: [1.97, 2.37],
       weaknesses: ["Electric", "Grass", "Fighting", "Ground"],
+      islike: false,
       next_evolution: [
         {
           num: "141",
@@ -3272,6 +3412,7 @@ var pokemons = [
       spawn_time: "23:40",
       multipliers: null,
       weaknesses: ["Electric", "Grass", "Fighting", "Ground"],
+      islike: false,
       prev_evolution: [
         {
           num: "140",
@@ -3294,6 +3435,7 @@ var pokemons = [
       spawn_time: "23:40",
       multipliers: null,
       weaknesses: ["Water", "Electric", "Ice", "Rock", "Steel"],
+      islike: false,
     },
     {
       id: 143,
@@ -3310,6 +3452,7 @@ var pokemons = [
       spawn_time: "23:40",
       multipliers: null,
       weaknesses: ["Fighting"],
+      islike: false,
     },
     {
       id: 144,
@@ -3326,6 +3469,7 @@ var pokemons = [
       spawn_time: "N/A",
       multipliers: null,
       weaknesses: ["Fire", "Electric", "Rock", "Steel"],
+      islike: false,
     },
     {
       id: 145,
@@ -3342,6 +3486,7 @@ var pokemons = [
       spawn_time: "N/A",
       multipliers: null,
       weaknesses: ["Ice", "Rock"],
+      islike: false,
     },
     {
       id: 146,
@@ -3358,6 +3503,7 @@ var pokemons = [
       spawn_time: "N/A",
       multipliers: null,
       weaknesses: ["Water", "Electric", "Rock"],
+      islike: false,
     },
     {
       id: 147,
@@ -3375,6 +3521,7 @@ var pokemons = [
       spawn_time: "06:41",
       multipliers: [1.83, 1.84],
       weaknesses: ["Ice", "Dragon", "Fairy"],
+      islike: false,
       next_evolution: [
         {
           num: "148",
@@ -3402,6 +3549,7 @@ var pokemons = [
       spawn_time: "11:57",
       multipliers: [2.05],
       weaknesses: ["Ice", "Dragon", "Fairy"],
+      islike: false,
       prev_evolution: [
         {
           num: "147",
@@ -3430,6 +3578,7 @@ var pokemons = [
       spawn_time: "23:38",
       multipliers: null,
       weaknesses: ["Ice", "Rock", "Dragon", "Fairy"],
+      islike: false,
       prev_evolution: [
         {
           num: "147",
@@ -3456,6 +3605,7 @@ var pokemons = [
       spawn_time: "N/A",
       multipliers: null,
       weaknesses: ["Bug", "Ghost", "Dark"],
+      islike: false,
     },
     {
       id: 151,
@@ -3472,5 +3622,6 @@ var pokemons = [
       spawn_time: "N/A",
       multipliers: null,
       weaknesses: ["Bug", "Ghost", "Dark"],
+      islike: false,
     },
   ];

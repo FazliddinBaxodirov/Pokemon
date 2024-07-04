@@ -16,3 +16,28 @@ body{
     border-bottom:2px solid orange;
     border-right:2px solid orange;
 }
+
+.content{
+    border-top:2px solid green;
+    border-left:2px solid green;
+    border-bottom:2px solid orange;
+    border-right:2px solid orange;
+}
+.select{
+    border-top:2px solid green;
+    border-left:2px solid green;
+    border-bottom:2px solid orange;
+    border-right:2px solid orange;
+}
+.input{
+    border-top:2px solid green;
+    border-left:2px solid green;
+    border-bottom:2px solid orange;
+    border-right:2px solid orange;
+}
+.button{
+    border-top:2px solid green;
+    border-left:2px solid green;
+    border-bottom:2px solid orange;
+    border-right:2px solid orange;
+}

@@ -16,10 +16,23 @@
 <body>
     <div class="containers flex items-center justify-between">
         <div class="w-[69%] p-10 h-[100vh] overflow-y-auto">
-            <input class="shadow w-full py-[20px] pl-[40px] text-[22px] border-[2px] border-slate-400 rounded-[30px] outline-none" type="text" placeholder="Enter random name or number">
+            <div class="flex justify-between items-center gap-[10px] ">
+                <input class="input shadow w-[70%] py-[15px] px-[40px] text-[22px]  rounded-[30px] outline-none" type="text" placeholder="Enter random name or number">
+                <button class="button w-[65px] h-[60px] flex items-center justify-center gap-[5px] rounded-[50%]">
+                  <span id="like-count">0</span>
+                  <img src="./img/like.svg" alt="like" width="25" height="25">
+                </button>
+                <select class="select w-[29%] py-[15px] px-[40px] text-[22px]  rounded-[30px] outline-none" >
+                    <option value="all">All</option>
+                </select>
+            </div>
             <ul class="pokemon-list flex flex-wrap justify-between gap-[30px] mt-[20px]"></ul>
         </div>
-        <div class="w-[29%]"></div>
+        <div class="w-[29%] p-[10px]  ">
+            <div class="content w-[100%] p-10 bg-white h-[480px]  rounded-[30px]">
+
+            </div>
+        </div>
     </div>
 
 
@@ -39,3 +52,4 @@
     </script>
 </body>
 </html>
+
